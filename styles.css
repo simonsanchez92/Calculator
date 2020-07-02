@@ -1,0 +1,51 @@
+html {
+    box-sizing: border-box;
+    background: #eeeeee;
+    font-family: 'helvetica neue';
+    font-size: 20px;
+    font-weight: 200;
+}
+
+body {
+    margin: 0;
+}
+
+.app {
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 350px;
+    width: 200px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 0.1px;
+    grid-template-areas:
+        "display display display display"
+        "cdisplay cdisplay cdisplay cdisplay"
+        "clear clear divide multiply"
+        "seven eight nine minus"
+        "four five six plus"
+        "one two three equal"
+        "zero zero dot equal";
+}
+
+#display {
+    grid-area: display;
+}
+
+#cdisplay {
+    grid-area: cdisplay;
+}
+
+#clear {
+    grid-area: clear;
+}
+
+#zero {
+    grid-area: zero;
+}
+
+#equal {
+    grid-area: equal;
+}
