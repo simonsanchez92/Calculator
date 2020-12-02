@@ -1,6 +1,7 @@
 # Calculator
 
 <p>Simple calculator which performs the four basic arithmetic operations: add, substract, multiply, and divide</p>
+  Bugs to be fixed...
 
 <h3>Features:</h3>
 <ul>
